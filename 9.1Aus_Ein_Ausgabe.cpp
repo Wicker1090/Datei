@@ -1,24 +1,34 @@
 //
-#include <iostream>  //
-#include <fstream>  //Datei beschreiben und lesen
+#include <iostream>
 #include <string>
 #include <vector>
 
 using namespace std;
 
+for
+
+
 
 int main() {
-    ifstream infile("Hello_World.txt");
-    cout << "Terminaleingabe: "; cin >>;
-    cout << "Dateieingabe: " << endl;
-    
-    cout << endl;
-    cout << " Die Dateiausgabe lautet." << n_f << endl;
-    cout << " Die Terminaleingabe lautet. " << n_t << endl;
-    cout << endl;
+    cout << "Vorkabeltraine \n";
+    cout << "Bitte treffe eine Auswal:";
+    cout << "(2) Vorkabeltest starten \n";
+    string option;
+    cin >> option;
 
-    ofstream output_file("/example5.txt")
-    
-    return EXIT_SUCCESS;
-    //ENDE
+
+    if(option == "1") {
+        cout << "Welchee Vorkabel (Deutsch)?";
+        string german_word;
+        string spanish_word;
+        cin >> german_word;
+        cout << "Wie lautet die Übersetzung"
+        cin >> spanish_word;
+        cout << german_word + " lautet auf Spanisch " +
+        spanish_word; 
+
+} else {
+    cout << " Vorkabeltest wird gestartet...";
 }
+
+return 0;
